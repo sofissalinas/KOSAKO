@@ -1,0 +1,80 @@
+body{
+             margin: 0;
+
+    font-family: 'Heebo', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Square Peg', cursive
+             background: #eeeeee;
+             color: #242C2B;
+    }
+    div {
+    display: flex;
+    }
+        section {
+            display: flex;
+            flex-direction: row;
+        }
+       
+        #faquichi {
+        align-items: center;
+            flex-direction: column;
+            background-color: #FEFFCA;
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+#kui li{
+    display: inline-block;
+}
+#kui ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #BCF8EF;
+    background-color: #86D3E6;
+}
+#kui li a{
+    display: block;
+    color: #665;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#kui li a:hover:not(.active){
+    background-color: #388B9F;
+}
+#kui li a.active {
+    color: #fff;
+    background-color: #C1F2CC;
+}
+#kui.menu__hamburguer-icon {
+    display: none;
+}
+
+@media screen and (.max-windth: 600px) {
+    kui.menu__hamburguer-icon{
+        display: block;
+        float: right;
+    }
+}
+@media screen and (.max-width: 600px){
+    #navigation-bar li:not(:first-child):not(.menu__amburguer-icon){
+    }
+    #navigation-bar-menu__hamburguer-icon {
+        display: block;
+        float: right;
+    }
+}
+
+#kosako {
+    flex: 2;
+    padding: 10px;
+}
+#kosako ul{
+    padding: 0 0 0 10px;
+}
+#kosako li {
+    list-style: none;
+}
+
